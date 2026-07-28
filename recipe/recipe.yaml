@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.6"
+  version: "0.2.7"
   python_min: "3.9"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spey/spey-${{ version }}.tar.gz
-  sha256: 8b08d53b6bf934395d04b21d3e768e86135007faf8c14acfd5af403eb90930ac
+  sha256: 19deb54c2bc652e758863d29b68d9b8993b3b84da7ead5fc76973b5541774aa2
 
 build:
   number: 0
