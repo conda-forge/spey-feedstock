@@ -24,7 +24,7 @@ requirements:
     - setuptools
   run:
     - python >=${{ python_min }},<3.14
-    - joblib>=1.2.0
+    - joblib >=1.2.0
     - numpy >=1.21.6,<3.0.0
     - scipy >=1.10.0
     - autograd >=1.7.0
