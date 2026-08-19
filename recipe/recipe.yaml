@@ -13,9 +13,9 @@ source:
   sha256: 19deb54c2bc652e758863d29b68d9b8993b3b84da7ead5fc76973b5541774aa2
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  script: ${{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -23,7 +23,7 @@ requirements:
     - pip
     - setuptools
   run:
-    - python >=${{ python_min }},<3.14
+    - python >=${{ python_min }}
     - joblib >=1.2.0
     - numpy >=1.21.6,<3.0.0
     - scipy >=1.10.0
